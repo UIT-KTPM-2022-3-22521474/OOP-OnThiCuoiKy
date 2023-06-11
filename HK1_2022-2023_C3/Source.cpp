@@ -48,7 +48,6 @@ protected:
 public:
 	virtual void Nhap();
 	virtual int TinhTien();
-	virtual void TimKiem();
 	virtual void Xuat();
 };
 class CTranhAnh :public CSanPham
@@ -60,7 +59,6 @@ protected:
 public:
 	void Nhap();
 	int TinhTien();
-	void TimKiem();
 	void Xuat();
 };
 class CCD :public CSanPham
@@ -71,7 +69,6 @@ protected:
 public:
 	void Nhap();
 	int TinhTien();
-	void TimKiem();
 	void Xuat();
 };
 
